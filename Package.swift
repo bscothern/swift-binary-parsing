@@ -26,7 +26,7 @@ let package = Package(
     .package(
       url: "https://github.com/apple/swift-argument-parser", from: "1.8.0"),
     .package(
-      url: "https://github.com/swiftlang/swift-syntax.git", from: "603.0.0"),
+      url: "https://github.com/swiftlang/swift-syntax.git", "603.0.0"..<"605.0.0"),
     .package(
       url: "https://github.com/pointfreeco/swift-macro-testing.git",
       from: "0.6.5"),
